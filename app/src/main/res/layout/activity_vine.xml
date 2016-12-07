@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_vine"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:background="@color/colorPlomo"
+    tools:context="com.androidbolivia.vineapp.VineActivity">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_gravity="center"
+        android:weightSum="1">
+
+
+        <ImageView
+            android:layout_width="102dp"
+            android:layout_height="71dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="15dp"
+            android:src="@mipmap/ic_launcher" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textColor="@android:color/white"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:text="Jason Knight"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/colorPlomoClaro"
+            android:textSize="15dp"
+
+            android:gravity="center"
+            android:text="I'm into coffe, phothography, and Brooklyn."/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/colorPlomoClaro"
+            android:textSize="15dp"
+            android:gravity="center"
+            android:text="New York, NY"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="horizontal"
+            android:gravity="center_horizontal"
+            android:layout_height="wrap_content">
+
+            <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@android:color/white"
+            android:textSize="13dp"
+                android:textStyle="bold"
+            android:layout_marginTop="10dp"
+            android:text="982 "/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorPlomoClaro"
+                android:textSize="11dp"
+                android:layout_marginTop="10dp"
+                android:text="FOLLOWERS "/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@android:color/white"
+                android:textSize="13dp"
+                android:textStyle="bold"
+                android:layout_marginTop="10dp"
+                android:text=".280 "/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorPlomoClaro"
+                android:textSize="11dp"
+                android:layout_marginTop="10dp"
+                android:text="FOLLOWINGS "/>
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:orientation="horizontal"
+            android:layout_gravity="center_horizontal"
+            android:layout_height="64dp">
+
+            <Button
+                android:layout_width="48dp"
+                android:text="+"
+                android:textSize="40dp"
+                android:textColor="@android:color/white"
+                android:background="@color/colorTurqueza"
+                android:layout_marginTop="10dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/button2" />
+
+            <Button
+                android:layout_width="271dp"
+                android:text="Follow"
+                android:textSize="20dp"
+                android:textColor="@color/colorPlomo"
+                android:layout_marginTop="10dp"
+                android:layout_height="match_parent" />
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_gravity="center">
+
+            <Button
+                android:layout_width="180dp"
+                android:text="57 POST"
+                android:textSize="13dp"
+                android:background="@android:color/white"
+                android:layout_height="wrap_content" />
+
+            <Button
+                android:layout_width="180dp"
+                android:text="234 LIKES"
+                android:textSize="13dp"
+                android:layout_height="61dp" />
+
+        </LinearLayout>
+
+        <ImageView
+            android:layout_width="415dp"
+            android:layout_height="207dp"
+            android:layout_gravity="center"
+            android:layout_marginLeft="0dp"
+            android:layout_marginRight="0dp"
+
+            android:src="@drawable/img2"
+            android:layout_weight="1.34" />
+
+
+
+
+    </LinearLayout>
+
+
+</LinearLayout>
